@@ -10,3 +10,5 @@ Install the packages required in <code>package.json</code> file
 Run with this command the React app on your local machine:
 <pre><code>npm run start</code></pre>
 This project is covered under <a href='https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt'>MIT License</a>.
+# 🌐 <a href='https://gian0012.github.io/spotify-pie-chart'>Website</a> 
+Website avable with GitHub Pages! 
