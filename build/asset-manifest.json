@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/spotify-pie-chart/static/css/main.129346e2.css",
+    "main.js": "/spotify-pie-chart/static/js/main.99170a12.js",
+    "static/js/787.5da76d77.chunk.js": "/spotify-pie-chart/static/js/787.5da76d77.chunk.js",
+    "index.html": "/spotify-pie-chart/index.html",
+    "main.129346e2.css.map": "/spotify-pie-chart/static/css/main.129346e2.css.map",
+    "main.99170a12.js.map": "/spotify-pie-chart/static/js/main.99170a12.js.map",
+    "787.5da76d77.chunk.js.map": "/spotify-pie-chart/static/js/787.5da76d77.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.129346e2.css",
+    "static/js/main.99170a12.js"
+  ]
+}

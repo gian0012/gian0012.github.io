@@ -127,4 +127,8 @@ dist
 .pnp.*
 
 
+# IntelliJ Idea Project
 .idea
+
+# React Script Build
+build
