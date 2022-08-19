@@ -1,0 +1,7 @@
+div.list-box {
+    width: 500px;
+    padding: 50px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
+
+
+.chart-gradient {
+    background: rgb(8, 20, 96);
+    background: linear-gradient(135deg, #172a74, #21a9af);
+    height: 100%;
+    margin-bottom: -20px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+h1.chart-title {
+    font-family: Poppins;
+    text-align: center;
+    padding: 30px;
+
+}
+
+
+subtitle {
+    font-family: Nista;
+    font-size: larger;
+    color: #97e541;
+    align-items: center;
+    justify-content: center;
+}
+
+Text.text-chart {
+    color: #abab9e;
+    font-family: Noto Sans;
+    font-weight: bold;
+
+}
+
+.custom-tooltip {
+    background-color: #172a74;
+    padding: 5px;
+}
+
+.chart-items {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+

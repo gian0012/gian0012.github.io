@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
+header {
+  font-family: Poppins;
+  font-size: 50px;
+  color: #abab9e;
+  margin-bottom: 125px;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+subtitle {
+  font-family: Nista;
+  font-size: larger;
+  color: #97e541;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+
+}
+.img-logo {
+  height: 30px;
+}
+
+
+.App-body {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(8, 20, 96);
+  background: linear-gradient(135deg, #172a74, #21a9af);
+  height: 100%;
+}
+
+
+
