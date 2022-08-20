@@ -28,7 +28,7 @@ export default function App() {
 
             <div className="mb-2">
 
-                <header>Spotify Pie</header>
+                <header>Spotify Pie Chart</header>
 
                 <Button href={`${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
               "%20"
