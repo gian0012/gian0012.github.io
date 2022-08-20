@@ -46,3 +46,11 @@ Text.text-chart {
     justify-content: center;
 }
 
+
+
+@media (max-width: 1000px) {
+
+    .chart-items {
+        display: flex;
+    }
+}
