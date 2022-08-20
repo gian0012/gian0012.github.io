@@ -44,7 +44,5 @@ Text.text-chart {
 .chart-items {
     align-items: center;
     justify-content: center;
-    display: flex;
-
 }
 
