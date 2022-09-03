@@ -33,7 +33,7 @@ const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
             <div className="chart-items">
             <body className="chart-gradient">
 
-                <h1 className="chart-title">Your Spotify Pie</h1>
+                <h1 className="chart-title">Your Genre Pie</h1>
                 <PieChart width={1250} height={700}>
                     <Pie
                         dataKey="value"

@@ -1,8 +1,8 @@
 {
-  "name": "spotify-pie-chart",
+  "name": "Pie-chart",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gian0012.github.io/spotify-pie-chart",
+  "homepage": "http://gian0012.github.io/Pie-chart",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

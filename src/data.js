@@ -28,13 +28,17 @@ export default function Data ({token}) {
             })
 
 
-
             const currArtistsToGenres = topArtists.map((artist, index) => {
                 const artistName = artist.name;
                 const genresArr = artist.genres;
+                const artistHref = artist.external_urls.spotify;
+                const artistFollowers = artist.followers.total;
                 return {
                     artistName: artistName,
-                    genresArr: genresArr
+                    genresArr: genresArr,
+                    artistHref: artistHref,
+                    artistFollowers: artistFollowers
+
                 }
             })
             setArtistToGenres(currArtistsToGenres);
@@ -96,10 +100,8 @@ export default function Data ({token}) {
                 })
             })
 
-             console.log(currArtistsToGenres,"artistToGenres") ;
 
             const sum = Object.values(finalObj).reduce((partialSum, a) => partialSum + a, 0);
-            console.log(sum,"sum");
 
              var pieData =
                 Object.keys(finalObj).map((key) => {
