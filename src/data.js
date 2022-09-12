@@ -4,16 +4,16 @@ import Chart from './chart.js';
 
 const axios = require('axios');
 
-export default function Data ({token}) {
+export default function Data({token}) {
 
     const [topArtists, setTopArtists] = useState([]);
     const [artistToGenres, setArtistToGenres] = useState([]);
     const [pie, setPie] = useState([])
 
-     useEffect(() => {
+    useEffect(() => {
 
 
-         const getTopArtists = async (token) => {
+        const getTopArtists = async (token) => {
 
             const headers = {
                 "Authorization": "Bearer " + token
@@ -48,7 +48,7 @@ export default function Data ({token}) {
                 return artist.genres;
             })
 
-             const allGenres = [].concat(...unorganizedGenres)
+            const allGenres = [].concat(...unorganizedGenres)
 
             var frequency = {};
 
@@ -80,22 +80,21 @@ export default function Data ({token}) {
             })
 
 
-
-             var artists = [];
+            var artists = [];
 
             Object.keys(finalObj).map((key) => {
                 var genre = key + " (";
 
                 currArtistsToGenres.map((artist) => {
 
-                    if(artist.genresArr.includes(key)){
+                    if (artist.genresArr.includes(key)) {
                         artists.push(artist.artistName);
                     }
 
                 })
 
-                     artists.map((artist) => {
-                    genre = genre + artist  + ", ";
+                artists.map((artist) => {
+                    genre = genre + artist + ", ";
                     return genre;
                 })
             })
@@ -103,23 +102,23 @@ export default function Data ({token}) {
 
             const sum = Object.values(finalObj).reduce((partialSum, a) => partialSum + a, 0);
 
-             var pieData =
+            var pieData =
                 Object.keys(finalObj).map((key) => {
-                return { name: key, value: Math.round(finalObj[key] / sum * 100)  }
-            })
+                    return {name: key, value: Math.round(finalObj[key] / sum * 100)}
+                })
 
 
-             setPie(pieData);
+            setPie(pieData);
 
 
         }
-         getTopArtists(token);
+        getTopArtists(token);
     })
 
 
     return (
 
-          <Chart pie={pie} artistToGenres={artistToGenres} />
+        <Chart pie={pie} artistToGenres={artistToGenres}/>
     )
 
 
