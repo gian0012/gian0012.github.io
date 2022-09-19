@@ -29,7 +29,7 @@ export default function Chart({pie, artistToGenres}) {
     return (
 
 
-        <div className="chart-items">
+        <div className="chart-items mx-auto my-auto justify-content-center align-items-center">
             <body className="chart-gradient">
 
             <h1 className="chart-title">Your Genre Pie</h1>
