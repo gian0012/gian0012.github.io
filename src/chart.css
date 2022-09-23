@@ -1,17 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
 
 
-
-.chart-gradient {
-    background: rgb(8, 20, 96);
+body {
     background: linear-gradient(135deg, #172a74, #21a9af);
-    height: 100%;
-    margin-bottom: -20px;
-    background-size: cover;
-    background-position: center;
-
 }
-
 
 h1.chart-title {
     font-family: Poppins;
@@ -38,21 +30,17 @@ Text.text-chart {
 
 .custom-tooltip {
     background-color: #172a74;
+    background-position: center;
     padding: 5px;
 }
 
-.chart-items {
+
+.recharts-wrapper {
     align-items: center;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 
 
-@media (max-width: 1000px) {
-
-    .chart-items {
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-}

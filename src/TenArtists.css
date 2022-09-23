@@ -2,6 +2,7 @@ div.list-box {
     width: 500px;
     padding: 50px;
     justify-content: center;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
 }

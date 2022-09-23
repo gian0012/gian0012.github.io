@@ -1,5 +1,6 @@
 import "./chart.css";
 import React from 'react';
+import {Adsense} from '@ctrl/react-adsense';
 import {Pie, PieChart, Tooltip, Text, Cell} from 'recharts';
 import GithubLogo from "./assets/image/github.png";
 import TenArtists from './TenArtists';
@@ -28,17 +29,18 @@ export default function Chart({pie, artistToGenres}) {
 
     return (
 
+        <body>
 
-        <div className="chart-items mx-auto my-auto justify-content-center align-items-center" style={{minHeight: '100vh'}} >
-            <body className="chart-gradient">
+        <div className="recharts-wrapper">
 
             <h1 className="chart-title">Your Genre Pie</h1>
-            <PieChart width={1250} height={700}>
+
+            <PieChart className="justify-content-center align-items-center" width={600} height={700}  >
                 <Pie
                     dataKey="value"
                     isAnimationActive={true}
                     data={pie}
-                    cx={650}
+                    cx={250}
                     outerRadius={255}
                     fill="#151718"
                 >
@@ -61,8 +63,24 @@ export default function Chart({pie, artistToGenres}) {
 
             </subtitle>
 
-            </body>
         </div>
+
+        <Adsense
+            client="ca-pub-4553692047764224"
+            slot="3870085646"
+            style={{ display: 'block' }}
+            layout="in-article"
+            format="fluid"
+        />
+
+        <Adsense
+            client="ca-pub-4553692047764224"
+            slot="3047958566"
+            style={{ width: 500, height: 300 }}
+            format="auto"
+        />
+
+        </body>
     );
 }
 

@@ -28,7 +28,7 @@ export default function TenArtists({artistToGenres}) {
     return (
 
         <div>
-            <img src={spotlogo} style={{width: '20%', display: 'block', marginRight: 'auto', marginLeft: 'auto'}}/>
+            <img src={spotlogo} style={{width: '250px', display: 'block', marginRight: 'auto', marginLeft: 'auto'}}/>
             <div className="list-box">
                 <ListGroup as="ol" numbered>
                     <ListGroup.Item
@@ -206,7 +206,7 @@ export default function TenArtists({artistToGenres}) {
 
 
             </div>
-            <img src={spotlogo} style={{width: '20%', display: 'block', marginRight: 'auto', marginLeft: 'auto'}}/>
+            <img src={spotlogo} style={{width: '250px', display: 'block', marginRight: 'auto', marginLeft: 'auto'}}/>
 
         </div>
 
